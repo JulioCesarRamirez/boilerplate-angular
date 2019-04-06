@@ -7,11 +7,12 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatButtonModule, MatCheckboxModule, MatToolbarModule, MatSidenavModule, MatIconModule, MatListModule } from "@angular/material";
 import 'hammerjs';
 
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { HomeComponent } from './home/home.component';
-import { MainNavComponent } from './main-nav/main-nav.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
 import { LayoutModule } from '@angular/cdk/layout';
+import { MainNavComponent } from './components/main-nav/main-nav.component';
+import { TitlePageComponent } from "./components/title-page/title-page.component";
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     AboutComponent,
     ContactComponent,
     HomeComponent,
-    MainNavComponent
+    MainNavComponent,
+    TitlePageComponent
   ],
   imports: [
     BrowserModule,
