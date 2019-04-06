@@ -1,0 +1,12 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://picsum.photos/g/1920/1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+app-title-page, p.lead{
+  color: white;
+  text-shadow: 4%;
+}
