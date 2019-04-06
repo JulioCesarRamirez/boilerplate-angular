@@ -12,9 +12,11 @@ import { HomeComponent } from './pages/home/home.component';
 //Components
 import { MainNavComponent } from './components/main-nav/main-nav.component';
 import { TitlePageComponent } from "./components/title-page/title-page.component";
+import { FooterComponent } from './components/footer/footer.component';
 //Libraries
 import 'hammerjs';
 import { SlideshowModule } from 'ng-simple-slideshow';
+
 
 
 
@@ -25,7 +27,8 @@ import { SlideshowModule } from 'ng-simple-slideshow';
     ContactComponent,
     HomeComponent,
     MainNavComponent,
-    TitlePageComponent
+    TitlePageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
