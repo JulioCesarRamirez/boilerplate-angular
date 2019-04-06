@@ -3,8 +3,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { MatButtonModule, MatCheckboxModule, MatToolbarModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatGridListModule } from "@angular/material";
+import { MatButtonModule, MatCheckboxModule, MatToolbarModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatGridListModule, MatInputModule } from "@angular/material";
 import { LayoutModule } from '@angular/cdk/layout';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 //Pages
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
@@ -36,14 +37,17 @@ import { SlideshowModule } from 'ng-simple-slideshow';
     BrowserAnimationsModule,
     SlideshowModule,
     MatButtonModule,
-    MatCheckboxModule, 
-    LayoutModule, 
-    MatToolbarModule, 
+    MatCheckboxModule,
+    LayoutModule,
+    MatInputModule,
+    MatToolbarModule,
     MatCardModule,
     MatGridListModule,
-    MatSidenavModule, 
-    MatIconModule, 
-    MatListModule
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
