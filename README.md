@@ -1,71 +1,27 @@
-# Boilerplate angular 7
+# BoilerplateAngular7
 
-## Getting Started
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
-This is a boilerplate to create webapps based on angular 7. It has two main components a footer and a menu
+## Development server
 
-### Prerequisites
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Before you begin, make sure your development environment includes Node.js® and an npm package manager.
+## Code scaffolding
 
-Angular requires Node.js version 8.x or 10.x. 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-https://nodejs.org/en/
+## Build
 
-npm package manager
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-```
+## Running unit tests
 
-```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### Installing
+## Running end-to-end tests
 
-A step by step series of examples that tell you how to get a development env running
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-Say what the step will be
+## Further help
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Author
-
-* **Julio Cesar Ramirez Jimenez** - *Initial work* - [PurpleBooth](https://github.com/JulioCesarRamirez)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
